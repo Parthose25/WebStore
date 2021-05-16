@@ -1,0 +1,79 @@
+body{
+    background-color: #faf3f3 !important;
+}
+footer{
+    background-color: black;
+    color:white;
+}
+img:hover{
+    position: relative;
+    top: -20px;
+}
+.features img{
+    width:60%;
+}
+
+footer img{
+    width:50%;
+}
+.login{
+    padding-bottom: 300px;
+}
+.input{
+    width:50%;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .top {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .bottom {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+@media screen and (max-width:880px){
+    .banner{
+        width:50%;
+    }
+    
+}
+
+@media screen and (max-width:990px){
+    .products img {
+      width:50%;
+      padding: 10px;
+    }
+    .rec{
+        padding-bottom:20px;
+    }
+}
+
+@media screen and (max-width:650px){
+   .offer h3{
+        font-size:20px;
+    }
+    .offer h1{
+        font-size: 25px;
+    }
+}
